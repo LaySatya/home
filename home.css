@@ -155,6 +155,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .middle .left-box .sponsor .order:hover{
     transform: scale(.85);
@@ -366,8 +367,7 @@ body{
     height: 95%;
     /*background-color: wheat;*/
     float: left;
-    margin-left: 5%;
-    margin-top: 20px;
+    margin-left: 25px;
 }
 .footer .full .f1{
     width: 25%;
@@ -487,4 +487,9 @@ body{
     font-size: 15px;
     color: white;
     font-family: 'Koulen', cursive;
+}
+@media (max-width: 414px){
+    .container{
+        width: 100%
+    }
 }
